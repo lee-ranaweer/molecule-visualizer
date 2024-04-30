@@ -1,0 +1,70 @@
+/* Style for the navigation bar */
+.navbar {
+  background-color: darkslategray;
+  overflow: hidden;
+}
+
+/* Style for links in the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for active link in the navigation bar */
+.active {
+  background-color: lightgray;
+}
+
+/* Style for text */
+h1, h3, p, th, td, form label {
+  font-family: Arial, sans-serif;
+}
+
+/* Common width for label and input elements */
+label, input[type=text], input[type=number] {
+  width: 200px;
+}
+/* Flexbox container for label-input pairs */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flexbox item for each label-input pair */
+form > * {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Spacing between label and input elements */
+form label {
+  margin-right: 10px;
+}
+
+/* Padding between table collumns */
+.view_molecules th, .view_molecules td {
+  padding: 25px;
+}
+
+/* Aligning collumn elements */
+th, td {
+  text-align: center;
+}
+
+/* Style for github page link */
+a.paragraph-link {
+  color: darkslategray;
+  text-decoration: none;  /* No underline */
+  font-family: Arial, sans-serif;
+}
+
+a.paragraph-link:hover {
+  text-decoration: underline;  /* Underline on hover */
+}

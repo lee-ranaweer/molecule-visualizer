@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Add/Remove Elements</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"> </script>
+    <script src="script.js" />
+    </script>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a class="active" href="#">Add/remove elements</a>
+        <a href="upload_sdf_file.html">Upload SDF file</a>
+        <a href="view_molecules.html">View molecules</a>
+    </div>
+
+    <div class="content">
+        <!-- Add/remove elements page -->
+        <h1>Add/Remove Elements</h1>
+
+        <!-- Add element form -->
+        <h3>Enter Element Details</h3>
+        <form id="addForm">
+            <label for="elementnumber">Element Number:</label>
+            <input type="number" id="elementnumber" name="elementnumber" required><br>
+
+            <label for="elementcode">Element Code:</label>
+            <input type="text" id="elementcode" name="elementcode" maxlength="2" required><br>
+
+            <label for="elementname">Element Name:</label>
+            <input type="text" id="elementname" name="elementname" maxlength="32" required><br>
+
+            <label for="colour1">Colour 1:</label>
+            <input type="text" id="colour1" name="colour1" pattern="[A-Fa-f0-9]{6}$" required><br>
+
+            <label for="colour2">Colour 2:</label>
+            <input type="text" id="colour2" name="colour2" pattern="[A-Fa-f0-9]{6}$" required><br>
+
+            <label for="colour3">Colour 3:</label>
+            <input type="text" id="colour3" name="colour3" pattern="[A-Fa-f0-9]{6}$" required><br>
+
+            <label for="radius">Radius:</label>
+            <input type="number" id="radius" name="radius" min="1" max="999" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Remove element form -->
+        <h3>Remove Element</h3>
+        <form id="deleteForm">
+            <label for="elementToDelete">Element Code to delete:</label>
+            <input type="text" id="elementToDelete" name="elementToDelete" maxlength="2" required><br>
+            <input type="submit" value="Delete">
+        </form>
+    </div>
+</body>
+
+</html>

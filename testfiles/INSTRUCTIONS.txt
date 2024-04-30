@@ -1,0 +1,47 @@
+
+1. Enter the following elements on the 'Add/remove elements page'
+    
+    Element number: 1
+    Element code: H
+    Element name: Hydrogen
+    Colour 1: FFFFFF
+    Colour 2: 050505
+    Colour 3: 020202
+    Radius: 25
+
+    Element number: 6
+    Element code: C
+    Element name: Carbon
+    Colour 1: 808080
+    Colour 2: 010101
+    Colour 3: 000000
+    Radius: 40
+    
+    Element number: 7
+    Element code: N
+    Element name: Nitrogen
+    Colour 1: 0000FF
+    Colour 2: 000005
+    Colour 3: 000002
+    Radius: 40
+
+    Element number: 8
+    Element code: O
+    Element name: Oxygen
+    Colour 1: FF0000
+    Colour 2: 050000
+    Colour 3: 020000
+    Radius: 40
+
+2. Upload the following molecules on the 'Upload SDF file' page
+
+    File name: 'caffeine.sdf'
+    Molecule name: Caffeine
+
+    File name: isopentanol.sdf
+    Molecule name: Isopentanol
+
+    File name: water.sdf
+    Molecule name: Water
+
+3. Display the molecules created on the 'View molecules' page by clicking on the highlighted names
