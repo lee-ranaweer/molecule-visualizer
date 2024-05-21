@@ -9,7 +9,7 @@ provide the visual representation of each atom. Once a molecule has been
 uploaded it can be displayed on the View molecules page. A 'testfiles' folder
 with instructions has been included in the project directory.
 
-### Instructions: 
+### How to run: 
 - Run "make" command in linux terminal 
 - "export LD_LIBRARY_PATH=." may be necessary 
 - Run "python3 server.py 8000" in terminal 
