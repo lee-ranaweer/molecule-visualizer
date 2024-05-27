@@ -1,5 +1,3 @@
-# Developed by Nelith Ranaweera
-
 ### Description: 
 This project runs a webserver that allows users to add unique elements, upload
 SDF files containing molecules, and view the molecules on the server. The
@@ -10,11 +8,19 @@ uploaded it can be displayed on the View molecules page. A 'testfiles' folder
 with instructions has been included in the project directory.
 
 ### How to run: 
-- Run "make" command in linux terminal 
-- "export LD_LIBRARY_PATH=." may be necessary 
-- Run "python3 server.py 8000" in terminal 
-- Load "localhost:8000/home.html" into browser
-- Navigate the tabs to access different functions
+Run the following commands
+```
+make
+export LD_LIBRARY_PATH=.
+python3 server.py 8000
+```
+
+Access the following addresses on your browser: localhost:8000/home.html
+
+Terminate the program using
+```
+crtl+c
+```
 
 ### Technologies used:
 - C
