@@ -1,4 +1,4 @@
-### Description: 
+### Molecule Visualizer: 
 This project runs a webserver that allows users to add unique elements, upload
 SDF files containing molecules, and view the molecules on the server. The
 interface is made up of 4 pages, 'Home', 'Add/remove element',
