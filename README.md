@@ -8,6 +8,7 @@ uploaded it can be displayed on the View molecules page. A 'testfiles' folder
 with instructions has been included in the project directory.
 
 ### How to run: 
+
 Run the following commands
 ```
 make
