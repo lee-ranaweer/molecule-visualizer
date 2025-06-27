@@ -20,8 +20,11 @@ make
 export LD_LIBRARY_PATH=.
 python3 server.py 8000
 ```
-4. Access the following addresses on your browser: localhost:8000/home.html
-5. Terminate the program using
+4. Access the following addresses on your browser
+```
+ localhost:8000/home.html
+```
+6. Terminate the program using
 ```
 crtl+c
 ```
