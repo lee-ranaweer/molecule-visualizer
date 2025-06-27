@@ -1,32 +1,35 @@
-### Molecule Visualizer: 
-This project runs a webserver that allows users to add unique elements, upload
-SDF files containing molecules, and view the molecules on the server. The
-interface is made up of 4 pages, 'Home', 'Add/remove element',
-'Upload SDF file', and 'View molecules'. The element data will be used to
-provide the visual representation of each atom. Once a molecule has been
-uploaded it can be displayed on the View molecules page. A 'testfiles' folder
-with instructions has been included in the project directory.
+# Molecule Visualizer
 
-### How to run: 
+### Overview
 
-Run the following commands
+A fullstack app that converts SDF files of molecular structures into interactive 3D models using a custom-built library. You can upload files to visualize molecules directly in the web browser. Uploaded molecules are saved in a local database for easy management.
+
+### How to run
+
+1. Clone the repository
+```
+git clone https://gitlab.socs.uoguelph.ca/w25-4030-section-01/group_09/holo.git
+```
+2. Navigate to the project directory
+```
+cd molecule-visualizer
+```
+3. Run the following commands
 ```
 make
 export LD_LIBRARY_PATH=.
 python3 server.py 8000
 ```
-
-Access the following addresses on your browser: localhost:8000/home.html
-
-Terminate the program using
+4. Access the following addresses on your browser: localhost:8000/home.html
+5. Terminate the program using
 ```
 crtl+c
 ```
 
-### Technologies used:
+### Technologies used
 - C
 - Python
 - SQLite
 - HTML
-- Javascript
 - CSS
+- Javascript
